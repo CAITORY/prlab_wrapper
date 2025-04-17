@@ -22,3 +22,7 @@ publishing {
 tasks.register("build") {
     dependsOn("publish")
 }
+
+tasks.register("assemble") {
+    dependsOn("publish")
+}
