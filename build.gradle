@@ -17,3 +17,8 @@ publishing {
         }
     }
 }
+
+// JitPack을 위한 dummy task
+tasks.register("build") {
+    dependsOn("publish")
+}
