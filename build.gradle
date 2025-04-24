@@ -3,14 +3,14 @@ plugins {
 }
 
 group = 'com.caitory'
-version = '1.0.0'
+version = '2025.04.24-101'
 
 publishing {
     publications {
         aar(MavenPublication) {
             groupId = 'com.caitory'
             artifactId = 'prlab'
-            version = '2025.04.16-100'
+            version = '2025.04.24-101'
 
             // .aar 파일을 아티팩트로 지정
             artifact file("libs/prlab-release.aar")
